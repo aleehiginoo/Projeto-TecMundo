@@ -7,15 +7,21 @@ html, body{
 
 .container{
     display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-areas: "header"
-                         "main"
-                         "footer";
+    grid-template-rows: 130px auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: "header header header"
+                         ". main ."
+                         ". footer .";
 }
 
 header{
-    height: 250px;
-    grid-area: "header";
+    display: flex;
+    flex-direction: column;
+    height: 123px;
+    grid-area: header;
+    align-items: center;    
+    box-sizing: border-box;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.1);
 }
 
 .cabecalho{
@@ -60,7 +66,7 @@ form{
     border-radius: 4px;
 }
 
-img{
+#img-lupa{
     height: 19px;
     width: 19px;
     float: left;
@@ -89,12 +95,54 @@ img{
     color: #8995a0;
 }
 
+.barra-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #f1f5f8;
+    height: 49px;
+    width: 1248px;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;    
+    color: #3e4851;
+    font-size: 16px;
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.itens{
+    padding: 12px 16px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.01em;
+    line-height: 16px;
+}
+
+.itens a :hover{
+    color: #355dd4;
+}
+
+#img-wifi{
+    height: 19px;
+    width: 19px;
+}
+
 main{
     height: 250px;
-    grid-area: "main";
+    width: 1248px;
+    grid-area: main;
 }
 
 footer{
     height: 250px;
-    grid-area: "footer";
+    width: 1248px;
+    grid-area: footer;
 }
