@@ -3,7 +3,6 @@ html, body{
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
-    background: blue;
 }
 
 .container{
@@ -12,8 +11,7 @@ html, body{
     grid-template-columns: auto 1248px auto;
     grid-template-areas: "header header header"
                          ". main ."
-                         ". footer .";
-    background: white;
+                         "footer footer footer";
     align-content: center;
 }
 
@@ -25,7 +23,6 @@ header{
     align-items: center;    
     box-sizing: border-box;
     box-shadow: 1px 2px 5px rgba(0,0,0,.1);
-    background: white;
 }
 
 .cabecalho{
@@ -123,9 +120,12 @@ a:hover{
     padding: 0;
     margin: 0;
     display: flex;
-    list-style: none;
     justify-items: center;
     align-items: center;
+}
+
+ul{    
+    list-style: none;
 }
 
 .itens{
@@ -154,13 +154,11 @@ main{
     grid-template-rows: 508px auto;
     grid-template-areas: "painel painel"
                          "coluna1 coluna2";
-    background: white;
 }   
 
 .painel{
     width: 1224px;
     height: 458px;
-    background: white;
     margin: 24px 0;
     grid-area: painel;
 }
@@ -174,13 +172,11 @@ main{
 .col-1-painel{
     width: 728px;
     height: 408px;
-    background: white;
 }
 
 .conteudo-pn-col-1{
     width: 728px;
     height: 408px;
-    background: white;
     padding: 0 12px;
     display: flex;
     flex-direction: column;
@@ -196,14 +192,12 @@ main{
     width: 704px;
     height: 103px;
     margin-top: 14px;
-    background: white;
 }
 
 .subtitulo-capita{
     width: 704px;
     height: 20px;
     margin-bottom: 8px;
-    background: white;
     font-size: 18px;
     color: #1087ff;
 }
@@ -211,7 +205,6 @@ main{
 .div-titulo{
     width: 704px;
     height: 75px;    
-    background: white;
 }
 
 .texto-capita{
@@ -226,7 +219,6 @@ main{
     width: 520px;
     height: 408px;
     padding: 0 12px;
-    background: white;
 }
 
 .pn-col-2-linha{
@@ -234,7 +226,6 @@ main{
     align-items: center;
     width: 496px;
     height: 118px;
-    background: white;
 }
 
 .img-pn-col2{
@@ -247,7 +238,6 @@ div.texto-col-2{
     margin-left: 24px;
     width: 308px;
     height: 76px;
-    background: white;
 }
 
 div.subtitulo-col-2{
@@ -258,7 +248,6 @@ div.subtitulo-col-2{
     font-size: 18px;
     letter-spacing: -.02em;
     line-height: 20px;
-    background: white;
 }
 
 a.titulo-col-2{
@@ -272,14 +261,12 @@ a.titulo-col-2{
     width: 1224px;
     height: 52px;
     padding-top: 20px;
-    background: white;
 }
 
 .linha-hr{
     padding: 5px 10px 0 10px;
     height: 27px;
     width: 1120px;
-    background: white;
 }
 
 .icones-123{
@@ -287,7 +274,6 @@ a.titulo-col-2{
     justify-content: space-around;
     height: 32px;
     width: 104px;
-    background: white;
 }
 
 img.icon-123{
@@ -299,14 +285,12 @@ img.icon-123{
     width: auto;
     height: auto;
     padding: 0 12px;
-    background: white;
     grid-area: coluna1;
 }
 
 .painel-mais-lidas{
     width: auto;
     height: 499px;
-    background: white;
     padding-bottom: 24px;
     border-bottom: 1px solid #dbe1e5;
 }
@@ -317,7 +301,6 @@ img.icon-123{
     margin-bottom: 16px;
     display: flex;
     justify-content: space-between;
-    background: white;
 }
 
 .titulo-mais-lidas{
@@ -332,7 +315,6 @@ img.icon-123{
     height: 32px;
     display: flex;
     justify-content: flex-end;
-    background: white;
 }
 
 .botoes-header{
@@ -350,7 +332,6 @@ img.icon-123{
 .coteudo-pn-mais-lidas{
     width: 833px;
     height: 426px;
-    background: white;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
@@ -360,7 +341,6 @@ img.icon-123{
 .noticias-mais-lidas{
     width: 392px;
     height: 118px;
-    background: white;
     padding: 0 12px;
     margin-bottom: 24px;
 }
@@ -370,14 +350,12 @@ img.icon-123{
     height: 118px;
     display: flex;
     align-items: center;
-    background: white;
 }
 
 .div-img-mais-lidas{
     width: 164px;
     height: 118px;
     margin-right: 24px;
-    background: white;
 }
 
 .img-mais-lidas{
@@ -389,7 +367,6 @@ img.icon-123{
     height: 90px;
     display: flex;
     flex-direction: column;
-    background: white;
 }
 
 .conteudo-mais-lidas a{
@@ -409,14 +386,12 @@ img.icon-123{
     width: auto;
     height: 358px;
     padding-top: 24px;
-    background: white;
 }
 
 .relacionados-col-1-conteudo{
     width: auto;
     height: 334px;
     display: flex;
-    background: white;
 }
 
 .col-relacionados{
@@ -424,13 +399,11 @@ img.icon-123{
     height: 321px;
     margin-bottom: 10px;
     margin-left: 16.4px;
-    background: white;
 }
 
 .div-conteudo-relacionados{
     width: 258px;
     height: 185px;
-    background: white;
     display: flex;
     flex-direction: column;
     
@@ -465,27 +438,23 @@ img.icon-123{
 .hr-relacionados{
     width: 748px;
     height: 24px;
-    background: white;
 }
 
 .img-taboola{
     width: 70px;
     height: 24px;
     padding-left: 10px;
-    background: white;
 }
 
 .ultimas-col-1{
     width: auto;
     height: 363.5px;
     margin-top: 24px;
-    background: gray;
 }
 
 .header-ultimas{
     width: 808;
     height: 31.5px;
-    background: white;
 }
 
 .header-ultimas a{
@@ -502,14 +471,12 @@ img.icon-123{
     display: flex;
     align-items: center;
     border-bottom: 1px solid #eceeef;
-    background: white;
 }
 
 .img-ultimas{
     width: 164px;
     height: 118px;
     margin-right: 24px;
-    background: white;
 }
 
 .conteudo-ultimas{
@@ -517,7 +484,6 @@ img.icon-123{
     height: 81.5px;
     display: flex;
     flex-direction: column;
-    background: white;
 }
 
 .conteudo-ultimas span{
@@ -538,7 +504,6 @@ span.subtitulo-ultimas{
 .conteudo-col-2{
     width: auto;
     height: auto;
-    background: white;
     grid-area: coluna2;
     padding: 0 12px;
 }
@@ -548,7 +513,6 @@ span.subtitulo-ultimas{
     height: 250px;
     padding: 6px;
     margin-bottom: 24px;
-    background: white;
 }
 
 #publicidade img{
@@ -559,13 +523,11 @@ span.subtitulo-ultimas{
 #materias-especiais{
     width: 392PX;
     height: 296.3px;
-    background: white;
 }
 
 .header-col-2{
     width: 392PX;
     height: 31.5px;
-    background: white;
 }
 
 .header-col-2 a{
@@ -582,14 +544,12 @@ span.subtitulo-ultimas{
     border-bottom: 1px solid #eceeef;
     display: flex;
     align-items: center;
-    background: white;
 }
 
 .img-materia-especial{
     width: 140PX;
     height: 88px;
     margin-right: 24px;
-    background: white;
 }
 
 .conteudo-col-2 img{    
@@ -601,7 +561,6 @@ span.subtitulo-ultimas{
     height: 100.5px;
     display: flex;
     flex-direction: column;
-    background: white;
 }
 
 #conteudo-materia-especial-2{
@@ -609,7 +568,6 @@ span.subtitulo-ultimas{
     height: 121.5px;
     display: flex;
     flex-direction: column;
-    background: white;
 }
 
 span.pub{
@@ -637,7 +595,6 @@ span.subtitulo{
     width: 392PX;
     height: 685px;
     margin-top: 18px;
-    background: white;
 }
 
 .review{
@@ -647,14 +604,12 @@ span.subtitulo{
     border-bottom: 1px solid #eceeef;
     display: flex;
     align-items: center;
-    background: white;
 }
 
 .img-reviews{
     width: 140PX;
     height: 88px;
     margin-right: 24px;
-    background: white;
 }
 
 .conteudo-reviews{
@@ -662,7 +617,6 @@ span.subtitulo{
     height: 82.5px;
     display: flex;
     flex-direction: column;
-    background: white;
 }
 
 .div-ver-todos{
@@ -678,8 +632,184 @@ span.subtitulo{
 }
 
 footer{
-    height: 250px;
-    width: 1248px;
+    height: auto;
+    width: auto;
     grid-area: footer;
-    background: black;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f6f8fa;
+}
+
+#conteudo-footer{
+    width: 1248px;
+    height: 280px;
+    padding: 32px 0;
+    display: flex;
+}
+
+#categorias{
+    width: 808px;
+    height: 240px;
+    padding: 0 12px;
+}
+
+#div-header-footer{
+    width: 808px;
+    height: 24px;
+    margin-bottom: 16px;
+}
+
+footer span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #575757;
+}
+
+#div-itens-conteudo-footer{
+    width: 832px;
+    height: 200px;
+    margin: 0 -12px;
+    display: flex;
+}
+
+.coluna-footer{
+    width: 184px;
+    height: 200px;
+    padding: 0 12px;
+}
+
+.lista-itens-footer{
+    padding: 0;
+    margin: 0;
+    width: 184px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.item-footer a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #575757;
+}
+
+footer a:hover{
+    color: #030303;
+}
+
+#outros-cupons{
+    width: 416px;
+    height: 240px;
+    display: flex;
+}
+
+.col-outros-cupons{
+    width: 184px;
+    height: 200px;
+    padding: 0 12px;
+}
+
+.header-outros-cupons{
+    width: 184px;
+    height: 24px;
+    margin-bottom: 16px;
+}
+
+.header-outros-cupons a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #575757;
+}
+
+.div-itens-outros-cupons{
+    width: 184px;
+    height: 160px;
+}
+
+#base-footer{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    background: #e9edf0;
+}   
+
+#conteudo-base{
+    width: 1224px;
+    height: 170px;
+    padding: 0 12px;
+}
+
+#sobre{
+    width: 1224px;
+    height: 48px;
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+}
+
+#sobre a:hover{
+    color: #3e4851;
+}
+
+#lista-sobre{
+    width: 642px;
+    height: 24px;
+    margin-left: 40px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itens-lista-sobre{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#lista-sobre a:hover{
+    color: #1087ff;
+}
+
+#todos-direitos{
+    width: 256px;
+    height: 48px;
+    font-size: 13px;
+    margin-left: 160px;  
+    color: #030303;
+    font-size: 13px;
+    width: 260px;
+    line-height: 24px;
+    text-align: right;
+}
+
+#link-sites{
+    width: 1224px;
+    height: 24px;
+    padding: 16px 0;
+    border-top: 1px solid #dbe1e5;
+}
+
+#sites{
+    margin: 0;
+    padding: 0;
+    padding-right: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itens-sites a{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.itens-sites a:hover{    
+    color: #1087ff;
 }
