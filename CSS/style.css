@@ -475,21 +475,206 @@ img.icon-123{
     background: white;
 }
 
-
-
-
-
 .ultimas-col-1{
     width: auto;
-    height: 600px;
+    height: 363.5px;
+    margin-top: 24px;
+    background: gray;
+}
+
+.header-ultimas{
+    width: 808;
+    height: 31.5px;
     background: white;
+}
+
+.header-ultimas a{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    line-height: 32px;
+}
+
+.ultimas-noticias{
+    width: 808;
+    height: 118px;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eceeef;
+    background: white;
+}
+
+.img-ultimas{
+    width: 164px;
+    height: 118px;
+    margin-right: 24px;
+    background: white;
+}
+
+.conteudo-ultimas{
+    width: 620px;
+    height: 81.5px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.conteudo-ultimas span{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    line-height: 28px;
+    padding-right: 80px;
+    margin-bottom: 8px;
+}
+
+span.subtitulo-ultimas{
+    font-size: 16px;
+    line-height: 20px;
+    color: #8995a0;
 }
 
 .conteudo-col-2{
     width: auto;
-    height: 500px;
+    height: auto;
     background: white;
     grid-area: coluna2;
+    padding: 0 12px;
+}
+
+#publicidade{
+    width: 380PX;
+    height: 250px;
+    padding: 6px;
+    margin-bottom: 24px;
+    background: white;
+}
+
+#publicidade img{
+    width: 380PX;
+    height: 250px;
+}
+
+#materias-especiais{
+    width: 392PX;
+    height: 296.3px;
+    background: white;
+}
+
+.header-col-2{
+    width: 392PX;
+    height: 31.5px;
+    background: white;
+}
+
+.header-col-2 a{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    line-height: 32px;
+}
+
+.materia-especial{
+    width: 392PX;
+    height: 100.4px;
+    padding: 16px 0;
+    border-bottom: 1px solid #eceeef;
+    display: flex;
+    align-items: center;
+    background: white;
+}
+
+.img-materia-especial{
+    width: 140PX;
+    height: 88px;
+    margin-right: 24px;
+    background: white;
+}
+
+.conteudo-col-2 img{    
+    border-radius: 8px;
+}
+
+#conteudo-materia-especial-1{
+    width: 228PX;
+    height: 100.5px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+#conteudo-materia-especial-2{
+    width: 228PX;
+    height: 121.5px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+span.pub{
+    color: #e2ac55;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+span.titulo{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    line-height: 22px;
+}
+
+span.subtitulo{
+    font-size: 14px;
+    line-height: 20px;
+    color: #8995a0;
+}
+
+#ultimos-reviews{
+    width: 392PX;
+    height: 685px;
+    margin-top: 18px;
+    background: white;
+}
+
+.review{
+    width: 392PX;
+    height: 88px;
+    padding: 16px 0;
+    border-bottom: 1px solid #eceeef;
+    display: flex;
+    align-items: center;
+    background: white;
+}
+
+.img-reviews{
+    width: 140PX;
+    height: 88px;
+    margin-right: 24px;
+    background: white;
+}
+
+.conteudo-reviews{
+    width: 228PX;
+    height: 82.5px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.div-ver-todos{
+    height: 24px;
+    padding: 12px 0;
+    justify-content: center;
+}
+
+.review .ver-todos a{
+    font-size: 16px;
+    color: #0a9eff;
+    font-weight: 600;
 }
 
 footer{
